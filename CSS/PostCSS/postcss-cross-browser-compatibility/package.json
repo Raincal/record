@@ -1,0 +1,23 @@
+{
+  "name": "postcss-cross-browser-compatibility",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^6.0.3",
+    "gulp": "^3.9.0",
+    "gulp-postcss": "^6.0.1",
+    "gulp-sourcemaps": "^1.6.0",
+    "pixrem": "^3.0.0",
+    "postcss-color-rgba-fallback": "^2.0.0",
+    "postcss-opacity": "^3.0.0",
+    "postcss-pseudoelements": "^3.0.0",
+    "postcss-vmin": "^2.0.0",
+    "postcss-will-change": "^1.0.0"
+  }
+}
