@@ -1,0 +1,15 @@
+body {
+    background: url('./stone-art.jpg') no-repeat;
+    background-size: cover;
+}
+
+div {
+    border: 10px solid hsla(0, 0%, 100%, .5);
+    background: white;
+    background-clip: padding-box;
+    
+    max-width: 20em;
+    padding: 2em;
+    margin: 2em auto 0;
+    font: 100%/1.5 sans-serif;
+}
