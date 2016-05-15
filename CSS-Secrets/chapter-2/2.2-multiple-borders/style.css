@@ -1,0 +1,39 @@
+p {
+    text-align: center;
+}
+div {
+    width: 200px;
+    height: 100px;
+    margin: 2em auto;
+}
+.multiple-borders {
+    background: yellowgreen;
+}
+/*
+* box-shadow 方案
+*/
+.div1 {
+    box-shadow: 0 0 0 10px #655, 
+                0 0 0 15px deeppink,
+                0 2px 5px 15px rgba(0, 0, 0, .6);
+}
+
+/*
+* outline 方案
+*/
+.div2 {
+    border: 10px solid #655;
+    outline: 5px solid deeppink;
+}
+
+
+/*
+* outline-offset 描边效果
+*/
+.div3 {
+    background: #655;
+    border-radius: 5px;
+    border: 1px solid #000;
+    outline: 1px dashed white;
+    outline-offset: -10px;
+}
