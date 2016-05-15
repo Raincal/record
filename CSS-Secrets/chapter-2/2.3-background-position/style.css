@@ -1,0 +1,35 @@
+p {
+    text-align: center;
+}
+div {
+    background: url('./code-pirate.svg') no-repeat bottom right #58a;
+    
+    margin: 2em auto;
+    max-width: 10em;
+    min-height: 5em;
+    padding: 10px;
+    color: white;
+    font: 100%/1 sans-serif;
+}
+
+/*
+* background-position 的扩展语法方案
+*/
+.div1 {
+    background-position: right 20px bottom 10px;
+}
+
+/*
+* background-origin 方案
+*/
+.div2 {
+    background-origin: content-box;
+    background-position: right 10px bottom 0px;
+}
+
+/*
+* calc() 方案
+*/
+.div3 {
+    background-position: calc(100% - 20px) calc(100% - 10px);
+}
